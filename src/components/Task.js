@@ -4,7 +4,12 @@ class Task extends Component {
     render() {
         return (
             <div>
-                task
+                <tr>
+                    <td>
+                        {this.props.task}
+                    </td>
+                </tr>
+                <button>Delete</button>
             </div>
         );
     }
